@@ -7,12 +7,12 @@ public class Player {
         this.hand = new Hand();
     }
 
-    public String getName() {
-        return name;
+    public String toString() {
+        return this.name + " " + this.hand.getValue() + " - " + this.hand.toString();
     }
 
-    public Hand getHand() {
-        return hand;
+    public void takeCard(Card card) {
+        this.hand.addCard(card);
     }
 
 }

@@ -11,7 +11,7 @@ public class Main {
 // get a card from the deck
             Card card = deck.deal();
 // deal that card to the hand
-            hand1.deal(card);
+            hand1.addCard(card);
         }
         int handValue = hand1.getValue();
         System.out.println("This hand is worth " + handValue);
