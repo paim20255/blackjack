@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner myscanner = new Scanner(System.in);
 
         Deck deck = new Deck();
         Hand hand1 = new Hand();
